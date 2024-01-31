@@ -1,10 +1,13 @@
 
-// mi memorizzo la lista
-const listaElement = document.querySelector(".lista");
+// facciamo una griglia con i numeri da 0 a 100
 
-// aggiungo dieci elementi alla lista
-for(let i = 0; i < 10; i++) {
+const grigliaElement = document.querySelector("#griglia");
 
-    listaElement.innerHTML += `<li>${i}</li>`
+
+for(let i = 0; i <= 100; i++) {
+     
+    grigliaElement.innerHTML += `
+        <div class="square" >${i}</div>
+    `;
 
 }
