@@ -23,5 +23,9 @@
 
     border: solid 1px black;
 
-    
+
+}
+
+.square.even {
+    background-color: aqua;
 }
